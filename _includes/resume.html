@@ -1,0 +1,286 @@
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/resume.css" />
+<section id="resume">
+    <div class="container">
+        <header class="three columns panel-body">
+            <img class="img-circle" width="120px" src="{{ site.baseurl }}static/img/{{ site.avatar }}"
+                alt="Responsive image">
+            <h1>{{site.author}}</h1>
+            <p>Senior Software Engineer, eager to learn, seek for challenges, curious to know how things work, go
+                deeper, and love dealing interesting problems.</p>
+            <address>Berlin, Germany</address>
+
+            <p>
+                {% include social.html %}
+        </header>
+
+
+        <section class="panel-body resume-detail">
+            <h4 class="text-italic">
+                <i>I keep <a href="https://www.linkedin.com/in/{{ site.linkedin }}">my linkedin profile</a>
+                    up-to-date</i>
+            </h4>
+
+            <section class="thirteen columns">
+                <h1 class="title">About me</h1>
+                <article>
+                    I am a senior software engineer with many years of experience and have a passion for programming.
+
+                    I have experience in various areas and working with cross-functional teams within organizations.
+                    Some key highlights:
+                    <li>plan, design, develop, deploy, maintain and monitor software applications</li>
+                    <li>design and build distributed, scalable, and highly available applications, ensuring SLAs are
+                        satisfied</li>
+                    <li>use design patterns besides Object-Oriented principles(SOLID), TDD, RESTful API Design, Event
+                        Sourcing</li>
+                    <li>hands-on experience in building CI/CD pipelines, infrastructure as code</li>
+                </article>
+            </section>
+
+            <section class="thirteen columns">
+                <h1 class="title">Employment</h1>
+                <article>
+                    <header>
+                        <h1>Senior Software Engineer at Klarna</h1>
+                        <span>
+                            <address>Berlin, Germany</address> - <time>2018 to Present(2021)</time>
+                        </span>
+                    </header>
+                    <p>
+                        I am working on a card payment method by issuing virtual credit cards, then
+                        processing and bookkeeping card transactions by a ledger built by the team.
+                        As responsible for the product from end to end, I participate in planning, developing,
+                        deploying, monitoring, and maintaining the distributed services. We implemented and launched the
+                        product from zero traffic to tens of thousands of cards issued each day and handling complex
+                        financial transactions in distributed systems.
+                    </p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>Java, Javascript</li>
+                            <li>Spring Boot, Dropwizard, Node, React</li>
+                            <li>Postgresql, jpa/hibernate, Kafka, Redshift</li>
+                            <li>Amazon Web Services (AWS), Docker, Git, Jenkins, Opsgenie</li>
+                            <li>Datadog, Prometheus, Grafana</li>
+                            <li>GraphQL & Restful APIs</li>
+                            <li>Docker, linux, git</li>
+                        </ul>
+                    </blockquote>
+                </article>
+                <article>
+                    <header>
+                        <h1>Senior Software Engineer at EFT SOFTWARE</h1>
+                        <span>
+                            <address>Istanbul, Turkey</address> - <time>2016 to 2017</time>
+                        </span>
+                    </header>
+                    <p>
+                        I worked in a team developing and maintaining risk assessment services to allow other
+                        applications to feed their data and assess financial events risks. It was both a rule-based and
+                        a machine learning-backed system that had to scale and be high-available besides being flexible
+                        so that each client could define custom rules. I took part in each step of the product, from
+                        designing to deploying onto production.
+                    </p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>Java and Python</li>
+                            <li>Spring Boot, spring-cloud-* and spring-data-*</li>
+                            <li>Elasticsearch, Redis, Postgresql</li>
+                            <li>Amazon Web Services (AWS)</li>
+                            <li>Docker, Linux, Git</li>
+                        </ul>
+                    </blockquote>
+                </article>
+                <article>
+                    <header>
+                        <h1>Lead Software Developer</h1>
+                        <span>
+                            <address>Istanbul, Turkey</address> - <time>2014 to 2016</time>
+                        </span>
+                    </header>
+                    <p>I led a developer team and designed and developed applications in natural language processing and
+                        machine learning. I established software development cycles(continuous integration, code review
+                        and pair programming, git-flow, staging, planning sprints, and milestones) and ensured the
+                        products were at the desired quality. Besides, I carried some research tasks under people from
+                        academe, adapted or devised algorithms to solve problems.
+                    </p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>Python, Java</li>
+                            <li>Django, Flask, spring-boot frameworks</li>
+                            <li>Mongodb, Mysql, Redis, Apache Spark, RabbitMQ</li>
+                            <li>Docker, Linux, Git, Jenkins, Prometheus, Amazon Web Services (AWS)</li>
+                        </ul>
+                    </blockquote>
+                </article>
+                <article>
+                    <header>
+                        <h1>Senior Software Developer at Botego</h1>
+                        <span>
+                            <address>Istanbul, Turkey</address> - <time>2010 to 2014</time>
+                        </span>
+                    </header>
+                    <p>I worked in the development of several natural language
+                        processing projects such as information retrieval, sentiment, and trend analysis, chatbots.
+                        My responsibility was to contribute back-end side coding and took part in the architectural
+                        design. We created restful web services which were consumed by our customers.</p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>Python, Java, PHP, Javascript</li>
+                            <li>Django, spring-boot framework</li>
+                            <li>Mongodb, Mysql, Redis, Apache Spark, RabbitMQ</li>
+                            <li>Docker, linux, git, Amazon Web Services (AWS)</li>
+                        </ul>
+                    </blockquote>
+                </article>
+                <article>
+                    <header>
+                        <h1>Software Developer at Prodestek</h1>
+                        <span>
+                            <address>Kocaeli, Turkey</address> - <time>2007 to 2009</time>
+                        </span>
+                    </header>
+                    <p>I worked on a cloud-based content management service, developed as a greenfield project, and used
+                        as SaaS by media and press companies. It was a multi-tenant system, had to handle high traffic.
+                        I took part in both the backend and front-end side.</p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>PHP, Java</li>
+                            <li>Javascript, Html, CSS</li>
+                            <li>Symfony framework</li>
+                            <li>Mysql, Memcached, Varnish, RabbitMQ, Apache Http Server, linux</li>
+                        </ul>
+                    </blockquote>
+                </article>
+                <article>
+                    <header>
+                        <h1>Junior Developer at Prodestek</h1>
+                        <span>
+                            <address>Kocaeli, Turkey</address> - <time>2006 to 2007</time>
+                        </span>
+                    </header>
+                    <p>I contributed to a content management application by adding new functionalities.</p>
+                    <blockquote><b>Tech stack: </b>
+                        <ul>
+                            <li>PHP</li>
+                            <li>Javascript, Html, CSS</li>
+                            <li>Symfony framework</li>
+                            <li>Mysql, Apache Http Server, linux</li>
+                        </ul>
+                    </blockquote>
+                </article>
+
+            </section>
+
+
+            <section class="thirteen columns">
+                <h1 class="title">Education</h1>
+                <article>
+                    <header>
+                        <h1>Master's degree, Software Engineering</h1>
+                        <span>Bogazici University</span>
+                        <span>
+                            <address>Istanbul, Turkey</address> - <time>2015 to 2017</time>
+                        </span>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h1>Bachelor degree, Business Administration</h1>
+                        <span>Anadolu University</span>
+                        <span>
+                            <address>Istanbul, Turkey</address> - <time>2006 to 2011</time>
+                        </span>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h1>Associate's degree, Computer Programming</h1>
+                        <span>Kocaeli University</span>
+                        <span>
+                            <address>Kocaeli, Turkey</address> - <time>2004 to 2006</time>
+                        </span>
+                    </header>
+                </article>
+                <article>
+                    <header>
+                        <h1>Technical High School, Computer Programming</h1>
+                        <span>Ataturk Industry High School</span>
+                        <span>
+                            <address>Kocaeli, Turkey</address> - <time>2001 to 2004</time>
+                        </span>
+                    </header>
+                </article>
+            </section>
+
+
+            <section class="thirteen columns">
+                <h1 class="title">Software engineering Skills</h1>
+                <b>
+                    I regard myself a language agnostic software engineer, rather than java software developer or python
+                    developer. I basically know how to trade off and choose the solution that fits the problem.
+                </b>
+                <article>
+                    <header>
+                        <h4>I have worked with:</h4>
+                    </header>
+                    <p>
+                        <li>Object oriented principles, design patterns as well as anti-patterns</li>
+                        <li>Data structures and fundamental algorithms</li>
+                        <li>Java, Python, Javascript</li>
+                        <li>Spring boot framework and Node.js and React</li>
+                        <li>Html & CSS</li>
+                        <li>ACID and CAP theorems, Sql, Postgresql</li>
+                        <li>NoSql, Elasticsearch, Redis, Amazon Redshift</li>
+                        <li>Messages queues, RabbitMQ and Kafka, AWS SQS</li>
+                        <li>Amazon Web Services (AWS), Infra as code, Linux</li>
+                        <li>Docker, continuous integration and delivery, Jenkins</li>
+                        <li>Git and git flow strategy, code reviewing, peer programming</li>
+                        <li>RESTful and GraphQL APIs</li>
+                        <li>Microservices: distributed, scalability and high available services</li>
+                        <li>Multi-threading, multi-processing and parallel computing, event-sourcing</li>
+                        <li>Documentation, unit, module and integration testing</li>
+                        <li>Monitoring, Datadog, Prometheus, Grafana, Opsgenie</li>
+                    </p>
+                </article>
+            </section>
+
+            <section class="thirteen columns">
+                <h1 class="title">Initiatives</h1>
+                <article>
+                    <header>
+                        <p>I would livee to contribute to open source; and I have started some open source projects and
+                            contributed to
+                            others. You can find them on my github page: <a
+                                href="https://github.com/muatik/">https://github.com/muatik/</a>; and on my blog: <a
+                                href="https://muatik.github.io/projects.html">https://muatik.github.io/projects.html</a>
+                        </p>
+                    </header>
+                </article>
+            </section>
+
+
+            <section class="thirteen columns">
+                <h1 class="title">Languages</h1>
+                <article>
+                    <li>English: Professional proficiency</li>
+                    <li>Turkish: Native</li>
+                    <li>German: Beginner</li>
+                </article>
+            </section>
+
+            <section class="thirteen columns">
+                <h1 class="title">Links</h1>
+                <article>
+
+                    <li>Github user: <a href="https://github.com/muatik/">muatik</a></li>
+                    <li>Linkedin : <a href="https://www.linkedin.com/in/muatik/">muatik</a></li>
+                    <li>Stackoverflow user: <a
+                            href="http://stackoverflow.com/users/story/672798/">users/672798/muatik</a></li>
+                    <li>Blog : <a href="https://muatik.github.io/">muatik.github.io</a></li>
+                </article>
+            </section>
+
+
+        </section>
+
+    </div>
+</section>
